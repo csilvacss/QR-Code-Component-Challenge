@@ -1,0 +1,38 @@
+
+body{
+	background-color: hsl(212, 45%, 89%); /*azul-claro de fundo página*/
+}
+
+main{
+	background-color: hsl(0, 0%, 100%); /* Branco interno*/
+	box-sizing: border-box;				/*tamanho caixa branca*/
+	padding: 15px;
+	border-radius: 20px; 				/*borda branca arredondada*/
+	width: 320px;
+	align-content: center;
+	margin: auto;
+	margin-top: 7rem;
+}
+
+main img {
+	width: 290px; 						/*tamanho QR Code*/
+	height: 290px;
+	border-radius: 10px;				/*arredondamento 4 cantos*/
+}
+
+main h1 {
+	font-family: 'Outfit', sans-serif;	
+	color: hsl(218, 44%, 22%);
+	font-size: 22px;	
+	font-weight: bold;
+	text-align: center;
+	padding: 2px;
+}
+
+main h2 {
+	font-family: 'Outfit', sans-serif;
+	color: hsl(220, 15%, 55%);	
+	font-size: 17px;
+	font-weight: 400;
+	text-align: center;
+}
